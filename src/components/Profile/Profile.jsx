@@ -15,7 +15,7 @@ function Profile({ username, tag, location, avatar, stats }) {
                     height="150"
                 />
                 <p className={s.name}>{ username}</p>
-                <p className={s.tag}>{ tag}</p>
+                <p className={s.tag}>@{tag}</p>
                 <p className={s.location}>{ location}</p>
             </div>
 
